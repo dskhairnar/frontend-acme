@@ -101,12 +101,6 @@ const LoginForm = () => {
                 )}
               </Button>
             </form>
-
-            <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-              <p className="text-sm font-medium text-blue-900 mb-1">Demo Credentials:</p>
-              <p className="text-xs text-blue-700">Email: patient@example.com</p>
-              <p className="text-xs text-blue-700">Password: demo123</p>
-            </div>
           </CardContent>
         </Card>
 

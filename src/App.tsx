@@ -14,6 +14,7 @@ import Profile from "@/components/Profile";
 import NotFound from "@/pages/NotFound";
 import { useEffect } from 'react';
 import AuthLogoutHandler from "@/contexts/AuthLogoutHandler";
+import Medication from "@/pages/Medication";
 
 const queryClient = new QueryClient();
 
@@ -67,6 +68,14 @@ const AppRoutes = () => {
         <ProtectedRoute>
           <DashboardLayout>
             <Profile />
+          </DashboardLayout>
+        </ProtectedRoute>
+      } />
+
+      <Route path="/medications" element={
+        <ProtectedRoute>
+          <DashboardLayout>
+            <Medication />
           </DashboardLayout>
         </ProtectedRoute>
       } />
