@@ -1,191 +1,123 @@
+# 🏥 Acme Corp Patient Dashboard
 
-# Acme Corp Patient Dashboard
+A comprehensive and responsive dashboard designed for participants of Acme Corp’s GLP-1 weight-loss program. Built as a take-home challenge to demonstrate full-stack application development with a healthcare-focused UI.
 
-A comprehensive patient dashboard for GLP-1 weight-loss program participants, built as a take-home challenge demonstration.
+---
 
-## 🎯 Challenge Overview
+## 📌 Overview
 
-This project demonstrates a full-stack approach to building a patient dashboard for Acme Corp's weight-loss program. The application showcases:
+This project simulates a production-ready dashboard for patients, offering key health insights, shipment tracking, and progress monitoring. Built with React and TypeScript, the app emphasizes security, usability, and scalability.
 
-- **Secure Authentication**: Mock login system with demo credentials
-- **Dashboard Overview**: Key metrics and progress summaries
-- **Weight Tracking**: Interactive charts and progress visualization
-- **Shipment Management**: Medication delivery tracking and history
-- **User Profile**: Personal information and health summary
+---
 
-## 🚀 Features
+## 🌟 Key Features
 
-### Core Functionality
-- ✅ **Secure User Authentication** - Login/logout with session management
-- ✅ **Dashboard Overview** - Weight, BMI, shipment status at a glance
-- ✅ **Weight Loss Progress** - Interactive charts with historical data
-- ✅ **Medication & Shipment Tracking** - Order history and delivery status
-- ✅ **Responsive Design** - Works seamlessly on all devices
+### 🧩 Core Functionality
 
-### Additional Features
-- 🎨 **Healthcare-focused Design** - Calming colors and professional UI
-- 📊 **Interactive Charts** - Using Recharts for data visualization  
-- 🔒 **Protected Routes** - Secure navigation and state management
-- 📱 **Mobile Responsive** - Optimized for mobile and tablet usage
-- ⚡ **Performance Optimized** - Fast loading and smooth interactions
+* 🔐 **User Authentication**: Secure login with session persistence
+* 📊 **Dashboard Overview**: Summary of weight, BMI, and shipment status
+* 📉 **Weight Tracking**: Visualize progress over time with interactive charts
+* 💊 **Medication & Shipment Management**: View orders, delivery statuses
+* 📱 **Responsive UI**: Seamless experience across devices
 
-## 🛠 Technical Stack
+### 🎁 Additional Highlights
 
-### Frontend
-- **Framework**: React 18 with TypeScript
-- **Styling**: Tailwind CSS with custom healthcare color palette
-- **Components**: shadcn/ui component library
-- **Charts**: Recharts for data visualization
-- **Routing**: React Router v6 with protected routes
-- **State Management**: React Context for authentication
-- **Build Tool**: Vite for fast development and builds
+* 🎨 **Healthcare UI**: Soothing palette with accessible design
+* 📈 **Recharts Integration**: Clean and responsive data visualizations
+* 🔒 **Protected Routes**: Secure navigation across the application
+* ⚡ **Optimized Performance**: Fast, smooth, and efficient
 
-### Backend Architecture (Proposed)
-- **Runtime**: Node.js with Express.js
-- **Database**: PostgreSQL with Prisma ORM
-- **Authentication**: JWT tokens with refresh token rotation
-- **API Design**: RESTful API with OpenAPI documentation
-- **Cloud Platform**: AWS (EC2, RDS, S3, CloudFront)
-- **Monitoring**: CloudWatch for logging and metrics
+---
 
-## 🎨 Design System
+## ⚙️ Tech Stack
 
-The application uses a healthcare-focused design system:
+### 🖥 Frontend
 
-- **Primary Colors**: Medical blues (#0ea5e9, #0284c7)
-- **Success Colors**: Healthcare greens for positive metrics
-- **Typography**: Clean, readable fonts optimized for medical data
-- **Layout**: Spacious, accessible design following healthcare UI patterns
-- **Components**: Consistent spacing, shadows, and interaction patterns
+* **Framework**: React 18 + TypeScript
+* **Styling**: Tailwind CSS + custom healthcare color scheme
+* **UI Library**: [shadcn/ui](https://ui.shadcn.com)
+* **Charts**: Recharts
+* **Routing**: React Router v6
+* **State Management**: React Context API
+* **Build Tool**: Vite
 
-## 📊 Mock Data
+### 🖥 Backend (Proposed)
 
-The application includes realistic mock data for demonstration:
+* **Runtime**: Node.js + Express
+* **Database**: PostgreSQL with Prisma ORM
+* **Auth**: JWT with refresh tokens
+* **API Design**: RESTful + OpenAPI
+* **Deployment**: AWS (EC2, RDS, S3, CloudFront)
+* **Monitoring**: AWS CloudWatch
 
-- **User Profile**: Complete patient information
-- **Weight Entries**: 6+ months of weight tracking data
-- **Medications**: GLP-1 (Semaglutide) prescription details
-- **Shipments**: Order history with various delivery statuses
-- **Health Metrics**: BMI, progress calculations, and goals
+---
 
-## 🔐 Authentication
+## 🖼 Design System
 
-**Demo Credentials:**
-- Email: `patient@example.com`  
-- Password: `demo123`
+* **Primary Colors**:
 
-The authentication system includes:
-- Form validation and error handling
-- Loading states and user feedback
-- Session persistence via localStorage
-- Protected route authentication
-- Secure logout functionality
+  * Light Blue: `#0ea5e9`
+  * Deep Blue: `#0284c7`
+* **Typography**: Clean sans-serif fonts for clinical readability
+* **Layouts**: Accessible and mobile-first grid system
+* **Components**: Consistent shadows, padding, and spacing for clarity
 
-## 📱 Responsive Design
+---
 
-The dashboard is fully responsive with:
-- **Desktop**: Full sidebar navigation with detailed layouts
-- **Tablet**: Optimized grid layouts and touch interactions  
-- **Mobile**: Collapsed navigation and mobile-first components
-- **Accessibility**: WCAG compliant with keyboard navigation
+## 🧪 Demo Credentials
 
-## 🚀 Quick Start
+```
+Email:    patient@example.com  
+Password: demo123
+```
 
-### Prerequisites
-- Node.js 18+ and npm
-- Git
+Features include:
 
-### Installation
+* Form validation & feedback
+* Persistent sessions via `localStorage`
+* Secure logout & protected routes
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd acme-patient-dashboard
-   ```
+---
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## 🚀 Getting Started
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
+### 📋 Prerequisites
 
-4. **Open your browser**
-   Navigate to `http://localhost:8080`
+* Node.js v18+
+* Git
 
-5. **Login with demo credentials**
-   - Email: `patient@example.com`
-   - Password: `demo123`
-
-### Available Scripts
+### 📦 Installation
 
 ```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run preview      # Preview production build
-npm run lint         # Run ESLint
+# Clone the repository
+git clone <repository-url>
+cd acme-patient-dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-## 🏗 System Architecture
+Open in browser: [http://localhost:8080](http://localhost:8080)
 
-### Database Schema (Proposed)
+---
+
+## 🧱 System Architecture
+
+### 📊 Database Schema (Proposed)
 
 ```sql
--- Users table
-CREATE TABLE users (
-  id UUID PRIMARY KEY,
-  email VARCHAR UNIQUE NOT NULL,
-  password_hash VARCHAR NOT NULL,
-  first_name VARCHAR NOT NULL,
-  last_name VARCHAR NOT NULL,
-  date_of_birth DATE,
-  phone VARCHAR,
-  enrollment_date DATE NOT NULL,
-  created_at TIMESTAMP DEFAULT NOW()
-);
-
--- Weight entries table  
-CREATE TABLE weight_entries (
-  id UUID PRIMARY KEY,
-  user_id UUID REFERENCES users(id),
-  weight DECIMAL(5,2) NOT NULL,
-  date DATE NOT NULL,
-  notes TEXT,
-  created_at TIMESTAMP DEFAULT NOW()
-);
-
--- Medications table
-CREATE TABLE medications (
-  id UUID PRIMARY KEY,
-  name VARCHAR NOT NULL,
-  dosage VARCHAR NOT NULL,
-  frequency VARCHAR NOT NULL
-);
-
--- Shipments table
-CREATE TABLE shipments (
-  id UUID PRIMARY KEY,
-  user_id UUID REFERENCES users(id),
-  medication_id UUID REFERENCES medications(id),
-  status VARCHAR NOT NULL,
-  order_date DATE NOT NULL,
-  shipped_date DATE,
-  expected_delivery_date DATE NOT NULL,
-  tracking_number VARCHAR,
-  quantity INTEGER NOT NULL,
-  address JSONB NOT NULL
-);
+-- users, weight_entries, medications, shipments (see original content)
 ```
 
-### API Endpoints (Proposed)
+### 🔗 API Endpoints
 
 ```
 Authentication:
 POST   /api/auth/login
-POST   /api/auth/logout  
+POST   /api/auth/logout
 POST   /api/auth/refresh
 
 User Management:
@@ -209,126 +141,140 @@ Medications:
 GET    /api/medications
 ```
 
-### Cloud Architecture (AWS)
+---
+
+## ☁️ Cloud Architecture (AWS)
 
 ```
 Frontend:
-- S3 + CloudFront for static hosting
-- Route 53 for DNS management
+- S3 + CloudFront
+- Route 53
 
 Backend:
-- EC2/ECS for application servers
-- Application Load Balancer
-- Auto Scaling Groups
+- EC2 / ECS
+- Load Balancer + Auto Scaling
 
 Database:
-- RDS PostgreSQL with read replicas
-- ElastiCache Redis for sessions
+- RDS PostgreSQL
+- ElastiCache for Redis sessions
 
 Security:
-- AWS WAF for application protection
-- AWS Secrets Manager for sensitive data
-- VPC with private subnets
+- AWS WAF
+- Secrets Manager
+- VPC
 
 Monitoring:
-- CloudWatch for logs and metrics
-- AWS X-Ray for distributed tracing
+- CloudWatch
+- AWS X-Ray
 ```
-
-## 🔒 Security Considerations
-
-- **Authentication**: JWT with secure httpOnly cookies
-- **Authorization**: Role-based access control (RBAC)  
-- **Data Protection**: Encryption at rest and in transit
-- **Input Validation**: Server-side validation for all inputs
-- **Rate Limiting**: API endpoint protection
-- **HIPAA Compliance**: Healthcare data protection standards
-
-## 📈 Performance Optimizations
-
-- **Code Splitting**: Route-based lazy loading
-- **Image Optimization**: WebP format with fallbacks
-- **Caching**: Browser caching and CDN optimization
-- **Bundle Analysis**: Webpack bundle analyzer integration
-- **Database**: Proper indexing and query optimization
-
-## 🧪 Testing Strategy
-
-```bash
-# Unit Tests
-npm run test:unit
-
-# Integration Tests  
-npm run test:integration
-
-# E2E Tests
-npm run test:e2e
-
-# Coverage Report
-npm run test:coverage
-```
-
-Testing includes:
-- Component unit tests with React Testing Library
-- API integration tests with Jest
-- E2E tests with Cypress
-- Visual regression tests with Chromatic
-
-## 🚀 Deployment
-
-### Production Build
-```bash
-npm run build
-npm run preview  # Test production build locally
-```
-
-### Docker Deployment
-```bash
-# Build container
-docker build -t acme-patient-dashboard .
-
-# Run container
-docker run -p 8080:8080 acme-patient-dashboard
-```
-
-### CI/CD Pipeline
-- **GitHub Actions** for automated testing and deployment
-- **Quality Gates**: ESLint, TypeScript, and test coverage
-- **Staging Environment**: Automatic deployment for testing
-- **Production Deployment**: Manual approval with blue-green strategy
-
-## 📝 Future Enhancements
-
-- **Real-time Notifications**: WebSocket integration for shipment updates
-- **Data Export**: PDF reports and CSV downloads
-- **Appointment Scheduling**: Integration with calendar systems
-- **Telehealth Integration**: Video consultation capabilities
-- **Mobile App**: React Native version for iOS/Android
-- **AI Insights**: Machine learning for health trend analysis
-
-## 🤝 Contributing
-
-This is a take-home challenge demonstration. For actual development:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is created for demonstration purposes as part of the Acme Corp technical challenge.
-
-## 👥 Contact
-
-For questions about this implementation:
-- **Technical Questions**: Focus on architecture and implementation decisions
-- **Design Questions**: Healthcare UI/UX patterns and accessibility
-- **System Design**: Scalability, security, and performance considerations
 
 ---
 
-**Built with ❤️ for Acme Corp Take-Home Challenge**
-#   f r o n t e n d - a c m e  
- 
+## 🛡 Security Practices
+
+* 🔐 **JWT + httpOnly Cookies**
+* 🔏 **RBAC (Role-Based Access Control)**
+* 🧪 **Input Validation & Sanitization**
+* 🧊 **Encryption at Rest and Transit**
+* 🧱 **Rate Limiting**
+* 🏥 **HIPAA-Oriented Best Practices**
+
+---
+
+## ⚙️ Performance
+
+* ✂️ Code Splitting & Lazy Loading
+* 🌐 Optimized for WebP & CDN
+* 📦 Bundle Analysis with `webpack-bundle-analyzer`
+* 🧵 Indexed DB queries and pagination
+
+---
+
+## 🧪 Testing Strategy
+
+### Scripts
+
+```bash
+npm run test:unit         # Unit Tests
+npm run test:integration  # Integration Tests
+npm run test:e2e          # E2E Tests
+npm run test:coverage     # Code Coverage
+```
+
+Includes:
+
+* **Unit Tests**: React Testing Library
+* **Integration**: Jest
+* **E2E**: Cypress
+* **Visual**: Chromatic
+
+---
+
+## 🚢 Deployment
+
+### Local Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+### Docker
+
+```bash
+docker build -t acme-patient-dashboard .
+docker run -p 8080:8080 acme-patient-dashboard
+```
+
+### CI/CD
+
+* 🛠 GitHub Actions
+* ✅ Lint, Type Check, and Test Gates
+* 🚧 Staging via preview deploys
+* ✅ Manual approvals with Blue-Green strategy
+
+---
+
+## 🧭 Roadmap & Future Enhancements
+
+* 📣 **Real-time Shipment Notifications (WebSockets)**
+* 🗓️ **Calendar & Appointment Integration**
+* 📄 **PDF/CSV Data Exports**
+* 📞 **Telehealth (Video) Integration**
+* 📱 **React Native Mobile App**
+* 🧠 **AI Insights on Health Trends**
+
+---
+
+## 🤝 Contributing
+
+> This is a take-home demonstration. For active development:
+
+```bash
+# Fork and clone
+git checkout -b feature/awesome-feature
+# Make your changes and push
+git commit -m "Add awesome feature"
+git push origin feature/awesome-feature
+# Open a Pull Request
+```
+
+---
+
+## 📜 License
+
+This project was developed as part of a **technical challenge** and is intended for demonstration purposes only.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out regarding:
+
+* 📐 **System Design Decisions**
+* 🎨 **Healthcare UI/UX**
+* 🔐 **Security & Compliance**
+
+---
+
+**Built with ❤️ for Acme Corp | Take-Home Challenge**
