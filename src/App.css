@@ -1,0 +1,21 @@
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: left;
+}
+
+.card {
+  background: hsl(var(--card));
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+  border: 1px solid hsl(var(--border));
+  padding: 2rem;
+}
+
+.read-the-docs {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+/* Remove logo styles for minimalism */
